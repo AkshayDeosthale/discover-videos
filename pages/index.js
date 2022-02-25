@@ -44,17 +44,18 @@ export default function Home({
   return (
     <div className={styles.container}>
       <Head>
-        <title>Netflix</title>
+        <title>Nextflix</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className={styles.main}>
-        <NavBar username="ankita@ank.com" />
+        <NavBar username="Akshay@akshay.com" />
         <Banner
-          videoId="4zH5iYM4wJo"
-          title="Clifford the red dog"
-          subTitle="a very cute dog"
-          imgUrl="/static/clifford.webp"
+          videoId="3RAXUhprs2Q"
+          title="Paul Heyman announces a WrestleMania roadblock for Brock Lesnar: Raw, Feb. 21, 2022"
+          subTitle="WWE Champion Brock Lesnar learns, courtesy of Paul Heyman, that he will be defending his title when WWE returns live to Madison Square Garden next Saturday. Catch WWE action on Peacock, WWE Network, FOX, USA Network, Sony India and more.
+          #RAW"
+          imgUrl="/static/brockpic.jpg"
         />
 
         <div className={styles.sectionWrapper}>

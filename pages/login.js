@@ -84,10 +84,10 @@ const Login = () => {
           <a className={styles.logoLink} href="/">
             <div className={styles.logoWrapper}>
               <Image
-                src="/static/netflix.svg"
+                src="/static/nextflix.png"
                 alt="Netflix logo"
                 width="128px"
-                height="34px"
+                height="128px"
               />
             </div>
           </a>

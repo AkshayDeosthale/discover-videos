@@ -13,6 +13,14 @@
   outline: none;
   border-radius: 10px;
   border: 1px solid var(--shadow10);
+
+  box-shadow: 2px 2px 5px 3px white;
+  animation: mymove 2s infinite;
+}
+@keyframes mymove {
+  20% {
+    box-shadow: 2px 2px 5px 3px violet;
+  }
 }
 
 .overlay {
@@ -52,7 +60,7 @@
 }
 
 .col1 {
-  max-height: 50vh /* 208px */;
+  max-height: 45vh /* 208px */;
   overflow-y: hidden;
   overflow-y: scroll;
 }

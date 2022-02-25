@@ -22,7 +22,7 @@ export async function getStaticProps(context) {
     props: {
       video: videoArray.length > 0 ? videoArray[0] : {},
     },
-    revalidate: 10, // In seconds
+    revalidate: 90000, // In seconds
   };
 }
 
