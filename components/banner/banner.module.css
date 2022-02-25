@@ -107,7 +107,24 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1607px) {
+  .title {
+    font-size: 3.75rem /* 60px */;
+    line-height: 1;
+  }
+
+  .subTitle {
+    font-size: 1.5rem /* 24px */;
+    line-height: 2rem /* 32px */;
+  }
+
+  .playText {
+    font-size: 1.25rem /* 20px */;
+    line-height: 1.75rem /* 28px */;
+  }
+}
+
+@media (min-width: 1607px) {
   .title {
     font-size: 3.75rem /* 60px */;
     line-height: 1;
