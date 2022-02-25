@@ -76,7 +76,7 @@ const Login = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Netflix SignIn</title>
+        <title>Nextflix SignIn</title>
       </Head>
 
       <header className={styles.header}>
