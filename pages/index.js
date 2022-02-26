@@ -55,7 +55,7 @@ export default function Home({
           title="Paul Heyman announces a WrestleMania roadblock for Brock Lesnar: Raw, Feb. 21, 2022"
           subTitle="WWE Champion Brock Lesnar learns, courtesy of Paul Heyman, that he will be defending his title when WWE returns live to Madison Square Garden next Saturday. Catch WWE action on Peacock, WWE Network, FOX, USA Network, Sony India and more.
           #RAW"
-          imgUrl="/static/brockpic.jpg"
+          imgUrl="/static/bl.jpg"
         />
 
         <div className={styles.sectionWrapper}>
